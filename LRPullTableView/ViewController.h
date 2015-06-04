@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LRBaseTableViewDelegate.h"
+#import "LRPullTableViewDelegate.h"
 
-@interface ViewController : UIViewController <LRBaseTableViewDelegate>
+@interface ViewController : UIViewController <LRPullTableViewDelegate>
 
 
 @end

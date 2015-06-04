@@ -23,7 +23,6 @@
 		328569BC1B15B37C0028D938 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 328569B41B15B37C0028D938 /* EGORefreshTableHeaderView.m */; };
 		328569BD1B15B37C0028D938 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 328569B51B15B37C0028D938 /* grayArrow.png */; };
 		328569BE1B15B37C0028D938 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 328569B61B15B37C0028D938 /* grayArrow@2x.png */; };
-		328569C01B15B7070028D938 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328569BF1B15B7070028D938 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,8 +61,7 @@
 		328569B41B15B37C0028D938 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
 		328569B51B15B37C0028D938 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
 		328569B61B15B37C0028D938 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
-		328569BF1B15B7070028D938 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		328569C11B15B74A0028D938 /* LRBaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRBaseTableViewDelegate.h; path = ../../../../MiDou/MiDou/LRBaseTableViewDelegate.h; sourceTree = "<group>"; };
+		32D6AE121B20A6E0009F5780 /* LRPullTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRPullTableViewDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				328569C01B15B7070028D938 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +85,6 @@
 		328569761B15B0440028D938 = {
 			isa = PBXGroup;
 			children = (
-				328569BF1B15B7070028D938 /* QuartzCore.framework */,
 				328569811B15B0440028D938 /* LRPullTableView */,
 				3285699B1B15B0440028D938 /* LRPullTableViewTests */,
 				328569801B15B0440028D938 /* Products */,
@@ -152,7 +148,7 @@
 				328569AC1B15B37C0028D938 /* EGOTableViewPullRefresh */,
 				328569A91B15B1AD0028D938 /* LRPullTableView.h */,
 				328569AA1B15B1AD0028D938 /* LRPullTableView.m */,
-				328569C11B15B74A0028D938 /* LRBaseTableViewDelegate.h */,
+				32D6AE121B20A6E0009F5780 /* LRPullTableViewDelegate.h */,
 			);
 			path = LRPullTableView;
 			sourceTree = "<group>";
@@ -482,6 +478,7 @@
 				328569A41B15B0440028D938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		328569A51B15B0440028D938 /* Build configuration list for PBXNativeTarget "LRPullTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +487,7 @@
 				328569A71B15B0440028D938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

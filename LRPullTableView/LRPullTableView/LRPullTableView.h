@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "EGORefreshTableHeaderView.h"
-#import "LRBaseTableViewDelegate.h"
+#import "LRPullTableViewDelegate.h"
 
 @class LRPullTableView;
 
@@ -36,7 +36,7 @@ typedef NS_ENUM(NSInteger, LRTableViewState) {
 @property(nonatomic,strong) NSArray *data;
 
 //创建代理
-@property(nonatomic,weak)id<LRBaseTableViewDelegate> eventDelegate;
+@property(nonatomic,weak)id<LRPullTableViewDelegate> eventDelegate;
 
 //是否还有更多
 @property(nonatomic,assign)BOOL isMore;
